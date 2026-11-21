@@ -1,0 +1,26 @@
+{
+  "stage": "full_resolution_gpu_training",
+  "epochs": 20,
+  "batch_size": 1,
+  "num_workers": 4,
+  "hidden_channels": 16,
+  "kernel_size": 3,
+  "optimizer": {
+    "lr": 0.001,
+    "betas": [0.9, 0.999],
+    "eps": 1e-8,
+    "weight_decay": 0.0,
+    "foreach": false
+  },
+  "gradient_clip_norm": 1.0,
+  "history_mins": 60,
+  "forecast_mins": 180,
+  "sample_freq_mins": 15,
+  "channels": [
+    "IR_016", "IR_039", "IR_087", "IR_097", "IR_108", "IR_120",
+    "IR_134", "VIS006", "VIS008", "WV_062", "WV_073"
+  ],
+  "train_period": ["2020-06-01 00:00", "2020-07-31 23:45"],
+  "val_period": ["2020-08-01 00:00", "2020-08-15 23:45"],
+  "test_period": ["2020-08-16 00:00", "2020-08-31 23:45"]
+}
