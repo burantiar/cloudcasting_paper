@@ -1,3 +1,3 @@
-# LSTM_cloudcast
+# Cloudcasting
 
-This repo stores the work-in-progress notebooks for the ATI cloudcasting project https://github.com/alan-turing-institute/cloudcasting/
+This repo stores the work-in-progress code for the ATI cloudcasting project https://github.com/alan-turing-institute/cloudcasting/
